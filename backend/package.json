@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "node": "^20.16.0"
+  },
+    "scripts": {
+      "build":"docker build --tag python-django .",
+      "start":"docker run --publish 8000:8000 python-django"
+    }
+}
